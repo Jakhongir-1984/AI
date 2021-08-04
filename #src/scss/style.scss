@@ -19,9 +19,37 @@
 }
 
 body {
-    max-width: 1920px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    background-color: #020A18;
+}
+
+ul {
+    list-style: none;
+}
+  
+a {
+    text-decoration: none;
 }
 
 .container {
     max-width: 1146px;
+    margin: 0 auto; 
 }
+
+.header {
+    max-width: 1920px;
+    height: 100px;
+    background-color: #0A121F;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__list {
+    display: flex;
+}
+
