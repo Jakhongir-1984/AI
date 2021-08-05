@@ -107,3 +107,26 @@ a {
   border: none;
   border-radius: 5px;
 }
+
+.btn-1 {
+  margin-top: 50px;
+  width: 171px;
+  height: 57px;
+  font-size: 20px;
+}
+
+.btn-2 {
+  margin-left: 20px;
+  width: 217px;
+  height: 57px;
+  font-size: 20px;
+  position: relative;
+  padding-left: 30px;
+}
+
+.polygon {
+  width: 27px;
+  height: 26px;
+  position: absolute;
+  left: 30px;
+}
