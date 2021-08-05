@@ -127,9 +127,46 @@ a {
     padding-left: 30px;
 }
 
+.btn-3 {
+    margin-left: 64px;
+    margin-top: 50px;
+    width: 150px;
+}
+
 .polygon {
     width: 27px;
     height: 26px;
     position: absolute;
     left: 30px;
+}
+
+.group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 89px;
+}
+
+.about {
+    display: flex;
+
+    &__data-title {
+        color: #fff;
+        font-size: 40px;
+        font-weight: 700;
+        margin-top: 407px;
+        margin-left: 64px;
+    }
+
+    &__data-subtitle {
+        color: #fff;
+        opacity: .7;
+        margin-top: 30px;
+        font-weight: 600;
+        margin-left: 64px;
+    }
+
+    &__img {
+        margin-top: 229px;
+        margin-left: -124px;
+    }    
 }
