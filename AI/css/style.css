@@ -29,7 +29,7 @@ a {
 
 .header {
   max-width: 1920px;
-  background-color: #0A121F;
+  background-color: #0a121f;
   border-radius: 10px;
 }
 
@@ -80,6 +80,7 @@ a {
   font-size: 55px;
   font-weight: 800;
   width: 604px;
+  height: 142px;
   line-height: 130%;
   margin-top: 10px;
 }
@@ -87,7 +88,9 @@ a {
 .home__data-text {
   margin-top: 40px;
   opacity: .7;
+  height: 87px;
   font-size: 18px;
+  line-height: 28.8px;
 }
 
 .home__img {
@@ -125,7 +128,7 @@ a {
 }
 
 .btn-3 {
-  margin-left: 64px;
+  margin-left: 65px;
   margin-top: 50px;
   width: 150px;
 }
@@ -144,7 +147,7 @@ a {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-top: 89px;
+  margin-top: -28px;
 }
 
 .about {
@@ -157,8 +160,8 @@ a {
   color: #fff;
   font-size: 40px;
   font-weight: 700;
-  margin-top: 407px;
-  margin-left: 64px;
+  margin-top: 397px;
+  margin-left: 65px;
 }
 
 .about__data-subtitle {
@@ -166,10 +169,12 @@ a {
   opacity: .7;
   margin-top: 30px;
   font-weight: 600;
-  margin-left: 64px;
+  margin-left: 65px;
+  width: 460px;
+  line-height: 25.6px;
 }
 
 .about__img {
-  margin-top: 229px;
-  margin-left: -124px;
+  margin-top: 223px;
+  margin-left: -130px;
 }
