@@ -12,3 +12,14 @@ testWebP(function (support) {
         document.querySelector('body').classList.add('no-webp');
     }    
 });
+
+let swiper = new Swiper(".mySwiper", {
+    slidesPerView: 3,
+    spaceBetween: 30,
+    loop: true,
+    loopFillGroupWithBlank: true,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+});
