@@ -266,3 +266,108 @@ h3 {
         margin-left: -44px;
     }
 }
+
+.footer__content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 148px;
+}
+
+.footer__contact {
+    margin-top: 248px;
+
+    &-subtitle {
+        font-size: 14px;
+        line-height: 17.71px;
+        opacity: .6;
+        margin-top: 10px;
+    }
+
+    &-mail {
+        margin-top: 42px;
+    
+        & a {
+            color: #fff;
+            font-size: 14px;
+        }
+    }
+
+    &-phone {
+        margin-top: 20px;
+    
+        & a {
+            color: #fff;
+            font-size: 14px;
+        }
+    }
+}
+
+address {
+    margin-top: 20px;
+    font-style: normal;
+    font-size: 14px;
+}
+
+.footer__data {
+    display: flex;
+    margin-top: 270px;
+}
+
+h4 {
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-left: 31px;
+    margin-bottom: 10px;    
+}
+
+.footer__list {
+    padding-left: 31px;
+
+    & li {
+        padding-top: 20px;
+    }
+}
+
+.footer__link {
+    color: #fff;
+    opacity: .6;
+    font-size: 14px;
+}
+
+.footer__social {
+    margin-top: 270px;
+    
+    & h4 {
+        margin-left: 0;
+    }
+
+    &-subtitle {
+        margin-top: 32px;
+        font-size: 14px;
+        line-height: 17.71px;
+        opacity: .6;
+    }
+
+    &-title {
+        font-size: 14px;
+        margin-top: 32px;
+    }
+
+    &-list {
+        display: flex;
+        justify-content: space-between;
+        width: 175px;
+        margin-top: 28px;
+    }
+}
+
+.footer__lang {
+    margin-top: 53px;
+
+    & select {
+        background-color: #000;
+        color: #fff;
+        border: none;
+    }
+}
